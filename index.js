@@ -79,7 +79,7 @@ function cal(sf){
             if(typeof(sfake[n1])==='undefined'){}
             else{
                 if(sfake[n1]=='1'){
-                    if(sfake[n1+1]=='0'&&typeof(sfake[n1+1])=='undefined'){
+                    if(typeof(sfake[n1+1])=='undefined'){
                         letters='หนึ่ง'+letters
                     }
                     else{
@@ -298,7 +298,7 @@ function cal(sf){
             if(typeof(sfake[n7])==='undefined'){g=g+1}
             else{
                 if(sfake[n7]=='1'){
-                    if(sfake[n7+1]=='0'&&typeof(sfake[n7+1])=='undefined'){
+                    if(sfake[n7+1]=='0'||typeof(sfake[n7+1])=='undefined'){
                         letters='หนึ่ง'+r[5]+letters
                     }
                     else{
