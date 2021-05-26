@@ -112,7 +112,6 @@ function cal(sf){
                 }
                 else if(sfake[n1]=='0'){
                     let l=sfake.length
-                    console.log(sfake)
                     if(l==1){
                         letters='ศูนย์'+letters
                     }
@@ -349,6 +348,21 @@ function equal () {
 function cl(){
     s=' '
     w=''
+    g=0
+    n1=0
+    n2=1
+    n3=2
+    n4=3
+    n5=4
+    n6=5
+    n7=6
+    n8=0
+    n9=1
+    n10=2
+    n11=3
+    n12=4
+    n13=5
+    n14=6
     m.innerHTML=('&nbsp')
     re.innerHTML=('&nbsp')
 }
