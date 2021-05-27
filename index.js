@@ -343,10 +343,13 @@ function cal(sf){
 function equal () {
     q=s.length-1
     if(re.innerHTML=='&nbsp;'){
-        x=s.slice(1)
+        if(s==' '){}
+        else{
+            x=s.slice(1)
         w=cal(x)
         m.innerHTML=(x)
         re.innerHTML=(w)
+        }
     }
     else{}
 }
